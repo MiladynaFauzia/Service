@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Template Admin Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class="sidebar">
+    <div class="brand">
+      <i class="fa-sharp fa-solid fa-qrcode"></i>&nbsp;&nbsp;
+      <h1>Administrator</h1>
+    </div>
+    <ul>
+      <li>
+        <i class="fa-solid fa-gauge"></i>&nbsp;&nbsp;
+        <span>Dashboard</span></li>
+      <li>
+        <i class="fa-solid fa-computer"></i>&nbsp;&nbsp;
+        <span><a href="read_komputer.php">Data Komputer</a></span>
+      </li>
+      <li>
+        <i class="fa-solid fa-person"></i>&nbsp;&nbsp;
+        <span><a href="read_teknisi.php">Teknisi</a></span>
+      </li>
+      <li>
+        <i class="fa-solid fa-cart-plus"></i>&nbsp;&nbsp;
+        <span><a href="read_stock.php">Stock</a></span>
+      </li>
+      <li>
+        <i class="fa-solid fa-file"></i>&nbsp;&nbsp;
+        <span><a href="report.php">Report</a></span>
+      </li>
+      <li>
+        <i class="fa-solid fa-user"></i>&nbsp;&nbsp;
+        <span><a href="read_user.php">Data User</a></span>
+      </li>
+      <li>
+        <i class="fa-solid fa-gear"></i>&nbsp;&nbsp;
+        <span>Pengaturan</span>
+      </li>
+    </ul>
+  </div>
+
+	
+	<div class="container">
+		<div class="header">
+			<div class="nav">
+				<div class="search">
+					<input type="text" placeholder="Pencarian...">
+					<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				</div>
+				<div class="user">
+					<a href="#" class="btn"><i class="fa-solid fa-plus"></i></a>
+					<a href="#" class="btn"><i class="fa-solid fa-bell"></i></i></a>
+					<a href="#" class="btn"><i class="fa-sharp fa-solid fa-user-tie"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+      <div class="cards">
+        <div class="card">
+          <div class="box">
+            <h3><a href="read_komputer.php">Data Komputer</a></h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-computer"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <h3><a href="read_teknisi.php">Teknisi</a></h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-person"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <h3><a href="read_stock.php">Stock</a></h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <h3><a href="report.php">Report</a></h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-file"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <h3><a href="read_user.php">Data User</a></h3>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-2">
+        <div class="payments">
+          <div class="title">
+            <h2>Data Komputer</h2>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn">Lihat Semua</a>
+          </div>
+          <table>
+            <tr>
+              <th>Merek</th>
+              <th>Pemilik</th>
+              <th>Keluhan</th>
+              <th>Aksi</th>
+            </tr>
+            <tr>
+              <td>Asus</td>
+              <td>Nurul</td>
+              <td>LCD rusak</td>
+              <td><a href="#" class="btn">Lihat</a></td>
+            </tr>
+            <tr>
+              <td>Del</td>
+              <td>Suci</td>
+              <td>Charger Laptop</td>
+              <td><a href="#" class="btn">Lihat</a></td>
+            </tr>
+            <tr>
+              <td>Asus</td>
+              <td>Amelia</td>
+              <td>Keyboard</td>
+              <td><a href="#" class="btn">Lihat</a></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="students">
+          <div class="title">
+            <h2>Data Teknisi</h2>
+            &nbsp;&nbsp;<a href="#" class="btn">Lihat Semua</a>
+          </div>
+          <table>
+            <tr>
+              <th>Photo</th>
+              <th>Nama</th>
+              <th>Aksi</th>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Rudi</td>
+              <td><i class="fa-solid fa-circle-info"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Rudi</td>
+              <td><i class="fa-solid fa-circle-info"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Rudi</td>
+              <td><i class="fa-solid fa-circle-info"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Rudi</td>
+              <td><i class="fa-solid fa-circle-info"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Rudi</td>
+              <td><i class="fa-solid fa-circle-info"></i></td>
+            </tr>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
